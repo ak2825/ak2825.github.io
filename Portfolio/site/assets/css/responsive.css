@@ -1,0 +1,272 @@
+@media (max-width: 52rem) {
+  .app-shell {
+    grid-template-columns: 12rem minmax(0, 1fr);
+  }
+
+  .sidebar {
+    padding-inline: 0.5rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  body {
+    padding-bottom: 7.75rem;
+  }
+
+  .app-shell {
+    display: block;
+    min-height: 0;
+    max-width: 100%;
+    padding-bottom: var(--player-height);
+    overflow-x: clip;
+  }
+
+  .sidebar {
+    position: static;
+    display: flex;
+    width: auto;
+    min-height: 0;
+    align-items: center;
+    padding: 0.75rem 1rem;
+  }
+
+  .wordmark {
+    flex: none;
+    margin: 0 1rem 0 0;
+  }
+
+  .sidebar nav {
+    display: flex;
+    min-width: 0;
+    padding-inline-end: 0.25rem;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+
+  .sidebar nav a {
+    flex: none;
+    white-space: nowrap;
+  }
+
+  .main-view {
+    max-width: 100%;
+    margin-left: 0;
+    overflow-x: clip;
+  }
+
+  .topbar {
+    min-height: 3.5rem;
+  }
+
+  .now-viewing {
+    grid-template-columns: minmax(0, 1fr) auto;
+    min-height: var(--player-height);
+    gap: 0.75rem;
+  }
+
+  .player-cover,
+  .player-links,
+  .player-progress-row,
+  .player-control[data-player-action="shuffle"],
+  .player-control[data-player-action="previous"],
+  .player-control[data-player-action="repeat"] {
+    display: none;
+  }
+
+  .player-track {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .player-center {
+    display: block;
+  }
+
+  .player-controls {
+    gap: 0.5rem;
+  }
+
+  .playlist-hero,
+  .profile-hero {
+    grid-template-columns: 1fr;
+    align-items: start;
+    min-height: 0;
+  }
+
+  .profile-hero {
+    padding-top: 2rem;
+  }
+
+  .profile-photo {
+    width: min(9rem, 48vw);
+  }
+
+  .profile-hero h1 {
+    font-size: clamp(2.75rem, 14vw, 4.25rem);
+  }
+
+  .placeholder-track {
+    grid-template-columns: 1.75rem minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .placeholder-track > span:last-child {
+    grid-column: 2;
+  }
+
+  .playlist-hero {
+    padding-top: 1.5rem;
+  }
+
+  .playlist-cover {
+    width: min(12rem, 62vw);
+  }
+
+  .playlist-hero h1 {
+    font-size: clamp(2.5rem, 13vw, 4.25rem);
+  }
+
+  .collection-hero {
+    grid-template-columns: 1fr;
+    padding-top: 6.5rem;
+  }
+
+  .collection-cover {
+    width: min(12rem, 62vw);
+  }
+
+  .library-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .library-card {
+    grid-template-columns: 5rem minmax(0, 1fr);
+    align-items: center;
+  }
+
+  .library-cover {
+    width: 5rem;
+  }
+
+  .personal-album-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .track-preview {
+    grid-template-columns: 1fr;
+  }
+
+  .project-album-inside {
+    grid-template-columns: 1fr;
+  }
+
+  .project-album-inside .repository-link {
+    grid-column: 1;
+    grid-row: auto;
+    justify-self: stretch;
+  }
+
+  .restaurant-grid,
+  .travel-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .playlist-actions {
+    position: static;
+    min-height: 4.5rem;
+  }
+
+  .repository-link {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .case-tracklist .track-row {
+    padding-inline: 0.5rem;
+  }
+}
+
+@media (max-width: 24.375rem) {
+  .sidebar nav {
+    scroll-snap-type: x proximity;
+  }
+
+  .sidebar nav a {
+    scroll-snap-align: start;
+  }
+}
+
+@media (max-width: 22rem) {
+  .sidebar {
+    padding-inline: 0.75rem;
+  }
+
+  .wordmark {
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.5rem;
+  }
+
+  .sidebar nav a {
+    padding-inline: 0.25rem;
+    font-size: 0.875rem;
+  }
+
+  .playlist-track summary {
+    grid-template-columns: minmax(0, 1fr);
+    padding-left: 1rem;
+  }
+
+  .track-index,
+  .track-duration,
+  .playlist-track summary small {
+    display: none;
+  }
+}
+
+@media (max-width: 30rem) {
+  .personal-album-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-photo-featured {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .project-album-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-album-card {
+    grid-template-columns: 5rem minmax(0, 1fr);
+    column-gap: 0.85rem;
+  }
+
+  .project-album-card img,
+  .project-album-cover {
+    grid-row: 1 / span 6;
+    margin: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

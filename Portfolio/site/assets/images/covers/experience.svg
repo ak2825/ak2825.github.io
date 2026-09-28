@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="experience-cover-title">
+  <title id="experience-cover-title">Experience playlist placeholder cover</title>
+  <rect width="320" height="320" fill="#675d50"/>
+  <path d="M62 126h196v112H62zM126 126v-20h68v20M62 168h196M145 168v18h30v-18" fill="none" stroke="#f1e6d3" stroke-linejoin="round" stroke-width="10"/>
+  <path d="M187 74h62v74h-62zM202 94h32M202 114h32" fill="none" stroke="#f1e6d3" stroke-linecap="square" stroke-width="8" opacity=".7"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="projects-cover-title">
+  <title id="projects-cover-title">Projects playlist placeholder cover</title>
+  <rect width="320" height="320" fill="#5b5044"/>
+  <path d="M56 244h54v-52h52v-54h52v-52h50" fill="none" stroke="#f1e6d3" stroke-linecap="square" stroke-linejoin="round" stroke-width="12"/>
+  <path d="M56 92h86M56 116h54" fill="none" stroke="#f1e6d3" stroke-linecap="square" stroke-width="8" opacity=".65"/>
+</svg>

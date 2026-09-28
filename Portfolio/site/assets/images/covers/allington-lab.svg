@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
+  <title id="title">Agricultural parcel grid layered with satellite bands for Allington Lab</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#243b46"/>
+      <stop offset="1" stop-color="#433a28"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="27" y="27" width="266" height="266" rx="10"/></clipPath>
+  </defs>
+  <rect width="320" height="320" rx="18" fill="url(#background)"/>
+  <g clip-path="url(#frame)">
+    <path d="M13 67l320-39v43L13 110z" fill="#91b9c4" fill-opacity=".48"/>
+    <path d="M-8 142l344-46v37L-8 181z" fill="#d2a65d" fill-opacity=".45"/>
+    <path d="M-8 226l344-54v39L-8 267z" fill="#8aa169" fill-opacity=".45"/>
+    <g fill="none" stroke="#eee6cd" stroke-opacity=".72" stroke-width="3">
+      <path d="M27 27l72 12-4 70-68 15M99 39l91-12 11 67-106 15M190 27l103 20-7 59-85-12M27 124l68-15 14 80-82 24M95 109l106-15-9 98-83-3M201 94l85 12 7 79-101 7M27 213l82-24 9 104M109 189l83 3 19 101M192 192l101-7"/>
+    </g>
+    <path d="M37 249l52-16 12 45-51 15z" fill="#1ed760" fill-opacity=".86"/>
+    <path d="M221 114l53 8 5 47-62 8z" fill="#1ed760" fill-opacity=".62"/>
+  </g>
+  <rect x="27" y="27" width="266" height="266" rx="10" fill="none" stroke="#f6f6f6" stroke-opacity=".72" stroke-width="4"/>
+</svg>

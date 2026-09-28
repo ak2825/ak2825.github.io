@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
+  <title id="title">Chart bars crossing a waveform and globe grid for Beats and Beliefs</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#182b48"/>
+      <stop offset="1" stop-color="#5b234d"/>
+    </linearGradient>
+    <clipPath id="globe"><circle cx="160" cy="149" r="105"/></clipPath>
+  </defs>
+  <rect width="320" height="320" rx="18" fill="url(#background)"/>
+  <g clip-path="url(#globe)" fill="none" stroke="#b8c8e5" stroke-opacity=".28" stroke-width="2">
+    <circle cx="160" cy="149" r="105"/>
+    <ellipse cx="160" cy="149" rx="55" ry="105"/>
+    <ellipse cx="160" cy="149" rx="105" ry="45"/>
+    <path d="M55 149h210M69 102h182M69 196h182M160 44v210"/>
+  </g>
+  <g fill="#f6f6f6" fill-opacity=".84">
+    <rect x="68" y="155" width="25" height="68" rx="4"/>
+    <rect x="108" y="119" width="25" height="104" rx="4"/>
+    <rect x="148" y="137" width="25" height="86" rx="4"/>
+    <rect x="188" y="91" width="25" height="132" rx="4"/>
+    <rect x="228" y="126" width="25" height="97" rx="4"/>
+  </g>
+  <path d="M26 143c19 0 19-34 38-34s19 67 38 67 19-93 38-93 19 119 38 119 19-82 38-82 19 46 38 46 19-23 38-23 19 0 38 0" fill="none" stroke="#1ed760" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="160" cy="149" r="105" fill="none" stroke="#f6f6f6" stroke-opacity=".6" stroke-width="3"/>
+</svg>

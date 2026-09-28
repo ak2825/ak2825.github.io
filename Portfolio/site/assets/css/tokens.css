@@ -1,0 +1,16 @@
+:root {
+  --color-ink: #000000;
+  --color-base: #121212;
+  --color-elevated: #181818;
+  --color-text: #f6f6f6;
+  --color-muted: #b3b3b3;
+  --color-accent: #1ed760;
+  --color-accent-hover: #3be477;
+  --sidebar-width: 17.5rem;
+  --player-height: 6.25rem;
+  --radius-panel: 0.5rem;
+  --radius-card: 0.5rem;
+  --space-page: clamp(1rem, 2.5vw, 2rem);
+  --font-ui: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --motion-fast: 160ms;
+}

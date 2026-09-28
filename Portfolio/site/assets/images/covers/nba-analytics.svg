@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
+  <title id="title">Basketball court geometry intersected by a regression curve for NBA analytics</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9b4f2d"/>
+      <stop offset="1" stop-color="#3a2335"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="18" fill="url(#background)"/>
+  <g fill="none" stroke="#f4e1c6" stroke-opacity=".78" stroke-width="4">
+    <rect x="31" y="31" width="258" height="258" rx="5"/>
+    <path d="M31 160h258M160 31v258"/>
+    <circle cx="160" cy="160" r="39"/>
+    <path d="M105 31v76h110V31M105 289v-76h110v76"/>
+    <path d="M86 31a74 74 0 0 0 148 0M86 289a74 74 0 0 1 148 0"/>
+  </g>
+  <g fill="#f6f6f6">
+    <circle cx="61" cy="238" r="6"/>
+    <circle cx="94" cy="222" r="6"/>
+    <circle cx="127" cy="192" r="6"/>
+    <circle cx="172" cy="176" r="6"/>
+    <circle cx="208" cy="129" r="6"/>
+    <circle cx="256" cy="91" r="6"/>
+  </g>
+  <path d="M44 252c47 2 76-27 112-56 35-27 57-81 121-120" fill="none" stroke="#1ed760" stroke-linecap="round" stroke-width="9"/>
+</svg>
